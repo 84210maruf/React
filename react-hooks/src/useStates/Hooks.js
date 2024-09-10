@@ -1,8 +1,10 @@
 import React from 'react';
 
 function Hooks() {
+
+    
     return (
-        <div>
+        <div className='hooks'>
             <h1>Hooks</h1>
         </div>
     )
