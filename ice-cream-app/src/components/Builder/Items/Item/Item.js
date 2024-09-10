@@ -9,7 +9,7 @@ const Item = ({ name, add, remove, scoops={} }) => {
 
     return (
         <li className={classes.item}>
-            <span>{ name }</span>
+            <span>{name}</span>
 
             {ScoopsByCount[name] >= 0 ? (
                 <span className={classes.quantity}>{ScoopsByCount[name]}</span>
