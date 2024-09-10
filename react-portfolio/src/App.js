@@ -1,11 +1,15 @@
 import './App.css';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import Footer from './Componants/Footer/Footer';
+import Layout from './Componants/Layout/Layout'; //its just a div element
+import Header from './Componants/header/Header';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hi</h1>
-    </div>
+    <Layout>
+      <Header />
+
+      <Footer />
+    </Layout>
   );
 }
 
